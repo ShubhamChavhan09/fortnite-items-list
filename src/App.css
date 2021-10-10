@@ -8,6 +8,7 @@
   height: 100vh;
 }
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -43,4 +44,10 @@ nav {
 .fancy-links:hover::after {
   transform: scale(1);
   transform-origin: left;
+}
+.item-img {
+  width: 100%;
+}
+.item-img > img {
+  width: 80%;
 }

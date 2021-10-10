@@ -23,7 +23,7 @@ const ItemDetail = ({ match }) => {
   };
 
   return (
-    <div>
+    <div className="item-img">
       <h1>{item.name}</h1>
       <img src={item.images.background} alt="images" />
     </div>
